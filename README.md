@@ -12,14 +12,15 @@ CuPhylo: A CUDA-based Application Program Interface and Library for Phylogenetic
 
 
 ## testCuLibImpl.cu 
-- This used for the timing of each kernel function in CuPhylo
+- This is used for the timing of each kernel function in CuPhylo
 - Compile: 
 ```
 nvcc -arch=sm_35 -o testCuLibImpl testCuLibImpl.cu *.o
 ```
 ## timeTest.cu 
-- This used for the experiments, you need first install beagle
+- This is used for the experiments, you need first install beagle
 - Compile: 
 ```
 nvcc -arch=sm_35 -L$BEAGLE_DIR$/lib -lhmsbeagle -I$BEAGLE_DIR$/include/libhmsbeagle-1 -o timeTest timeTest.cu *.o
 ```
+where $BEAGLE_DIR$ is the directory for beagle library.
