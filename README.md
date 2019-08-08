@@ -2,7 +2,7 @@
 CuPhylo: A CUDA-based Application Program Interface and Library for Phylogenetic Analysis
 
 ## File description: 
-- CuLibKernel-xxx.cu contains the kernel implementation for the likelihood computation, postfix rooted means rooted tree
+- CuLibKernel-xxx.cu contains the kernel implementation for the likelihood computation, postfix rooted means for rooted tree, rooted means for unrooted tree
 - CuLibKernel-baseline-xxx.cu contains the kernel for state number is not 61
 - CuLibKernel-codemlAndMrBayes-xxx.cu contains the kernel for state number is 61
 
